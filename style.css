@@ -1,0 +1,133 @@
+/* Colors and fonts */
+
+body {
+	background-color: rgb(233, 226, 226);
+	color: rgb(0, 40, 0);
+	font-family: 'Lora', serif;
+	font-size: 	18px; 
+	font-weight: 500;
+}
+
+h1, h2 {
+	color: rgb(71, 31, 31);
+	font-family: Marker Felt, fantasy;
+}
+
+h1 {
+	letter-spacing: 4px;
+	font-size: 40px;
+	font-weight: 100;	
+}
+
+h2 {
+	font-size: 25px;
+	font-weight: lighter;
+}
+
+a {
+	text-decoration: none;
+	color: rgb(0, 40, 0);
+}
+
+a:hover {
+	color: yellow;
+}
+
+
+/* Page format */
+
+@media (max-width: 760px) {
+  .container {
+  	width: 600px; 
+  }
+}
+
+@media (max-width: 500px) {
+  .container {
+  	width: 400px; 
+  }
+}
+
+
+/* Custom design with class for cards */
+
+.container {
+	width: 700px;
+	margin: 50px auto;
+}
+
+.card-white {
+	background-color: white;
+	padding: 25px;
+	box-shadow: 0px 10px 20px rgba(0,0,0,0.1);
+	border-radius: 6px;
+	margin: 30px 0;
+	text-align: center;
+}
+
+/* Custom design with class for the image */ 
+
+.img-circle {
+	border-radius: 50%;
+}
+
+
+/* Custom design with class for icons & buttons */
+
+.btn-white {
+	background-color: rgb(71, 31, 31);
+	color: rgb(233, 226, 226);
+	font-weight: bolder;
+	font-family: 'Lora Italic', serif;
+	box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+	letter-spacing: 2px;
+	padding: 5px 10px;
+	border-radius: 8px;
+}
+
+.list-inline {
+	list-style: none;
+	padding-left: 0PX;
+}
+
+.list-inline li {
+	display: inline;
+	padding: 10px;
+}
+
+.list-inline i {
+	font-size: 60px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
